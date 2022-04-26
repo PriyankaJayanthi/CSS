@@ -3,6 +3,7 @@ body {
     font-family: sans-serif;
     margin: auto;
     display: block;
+    width:1024px;
 }
 .heading {
    padding: 25px;
@@ -30,20 +31,16 @@ img {
     }
     nav ul > li {
         display: inline-block;
-        
         padding: 10px;
         list-style-type: none;
         width: 174px;    
     }
-   
-    
     .login_link{
         padding: 25px;
         display: inline-block;
         background-color:rgb(0, 221, 255);
         height: 23px;
         width: 50px;
-            
     }
 .login_link a {
     color: black;
@@ -111,6 +108,65 @@ ol.nav > li {
     display: inline-block;
     padding: 12px 20px;
 }
-img {
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+} 
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+.login{  
+    width: 382px;  
+    overflow: hidden;  
+    margin: auto;  
+    margin: 20 0 0 450px;  
+    padding: 80px;  
+    background: #3c7194;  
+    border-radius: 15px ;  
+}  
+#user_label{  
+    color: #08ffd1;  
+    font-size: 17px;  
+}
+#pass_label{
+    color: #08ffd1;
+    font-size: 17px;
+}
+#reset{  
+    width: 100px;  
+    height: 20px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;   
+}  
+#signin{
+    width: 100px;  
+    height: 20px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;
+}
+.header{
+    width: 300px; 
+    height: 50px; 
+    overflow: hidden;  
+    margin: auto;  
+    margin: 10 0 0 150px;  
+    padding: 20px;  
+    background: #3c7194;  
+    border-radius: 10px ; 
+    align-self: left; 
     
+}
+#Index_Page{
+    position: absolute;
 }
